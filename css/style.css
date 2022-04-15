@@ -1,0 +1,226 @@
+.wrap {
+    position :absolute;
+    width: 1440px;
+}
+
+.containers {
+    margin: 0px;
+    margin-left: 236px;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 52px;
+}
+
+.dot {
+    margin-top: 18px;
+    width: 13px;
+    float: left;
+}
+
+.overview {
+    float: left;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: italic;
+    color: #4f4f4f;
+    width: 600px;
+    margin: 0px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+figure {
+    clear: left;
+    margin: 0px;
+}
+.image {
+    clear: left;
+    width: 969px;
+    margin-top: 43px;
+}
+
+.ingredients {
+    margin-top: 48px;
+}
+
+h2 {
+    margin: 0px;
+    margin-bottom: 32px;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+label {
+    clear: left;
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-style: italic;
+    color: #333333;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.clear {
+    clear: both;
+}
+
+.checkbox {
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+input {
+    clear: left;
+    float: left;
+    border: 1px solid #828282;
+    width: 21px;
+    height: 21px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.p {
+    width: 540px;
+    float: left;
+    margin: 0px;
+    margin-bottom: 14px;
+    margin-left: 17px;
+}
+
+.instructions {
+    clear: left;
+}
+
+ol {
+    counter-reset: number;
+    list-style-type: none;
+    padding: 0px;
+    padding-bottom: 30px;
+}
+ol li::before {
+    position: absolute;
+    float: left;
+    width: 36px;
+    height: 36px;
+    counter-increment: number;
+    content: counter(number);
+    background: #F2994A;
+    color: white;
+    font-family: Playfair Display;
+    font-size: 24px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.li {
+    width: 528px;
+    margin: 50px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    }
+
+.url {
+    font-family: Montserrat;
+    font-style: italic;
+    size: 16px;
+    color: #BDBDBD;
+}
+
+.main {
+    width: 750px;
+}
+.sub {
+    width: 216px;
+    margin-top: 48px;
+}
+
+article {
+    display: flex;
+}
+
+.tips {
+    width: 216px;
+    height: 367px;
+    margin: 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.tips-group {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #333333;
+}
+
+.knife {
+    position: absolute;
+    float: left;
+    width: 27px;
+    filter: invert(72%) sepia(26%) saturate(6428%) hue-rotate(1deg) brightness(105%) contrast(102%);
+}
+
+.timer {
+    position: absolute;
+    float: left;
+    width: 27px;
+}
+
+.tips-group-first {
+    clear: left;
+    float: left;
+    margin-top: 57px;
+    margin-left: 40px;
+}
+
+.tips-group {
+    clear: left;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.gray {
+    float: left;
+    margin: 0px;
+    margin-left: 40px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: bold;
+    color: #BDBDBD;
+}
+
+.black {
+    clear: left;
+    float: left;
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 40px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #333333;
+}
+
+.orange {
+    clear: left;
+    float: left;
+    margin: 0px;
+    margin-top: 4px;
+    margin-left: 40px;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #F2994A;
+}
